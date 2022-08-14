@@ -3,26 +3,33 @@
   padding: 0;
   box-sizing: border-box;
 }
-h1 {
+
+body {
+  background-color: black;
+}
+
+p {
   text-align: center;
   font-size: 3rem;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: tomato;
   margin: 50px 0;
 }
+
 .grid {
   max-width: 1400px;
   width: 90%;
   height: auto;
-  margin: 0 auto;
+  margin: 2rem auto;
   display: grid;
   grid-template-columns: repeat(auto-fill, 300px);
   grid-gap: 10px;
-  border: solid red 1.3px;
+  /* border: solid red 1.3px; */
   justify-content: center;
 }
+
 .grid-item {
   width: 300px;
   height: 200px;
-  background-color: royalblue;
+  background-color: teal;
 }
